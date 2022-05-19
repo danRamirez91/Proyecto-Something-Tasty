@@ -35,5 +35,10 @@ body{
 
 .hr{
     width: 3%;
-    color: ;
+     
+}
+
+.carousel{
+    width: 640px;
+    height: 360px;
 }
