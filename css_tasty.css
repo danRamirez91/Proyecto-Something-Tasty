@@ -1,0 +1,39 @@
+body{
+    padding-top: 60px;
+}
+
+.navbar{
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.jumbotron{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: cover;
+    text-align: center;
+    color:#f9fafb;
+    size: 3rem;
+}
+
+#jumbotron{
+    max-width: inherit;
+    max-height: fit-content;
+}
+
+
+#title-jumbotron{
+    padding: 1rem;
+    font-family:sans-serif
+     
+}
+
+#text-jumbotron{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+}
+
+.hr{
+    width: 3%;
+    color: ;
+}
