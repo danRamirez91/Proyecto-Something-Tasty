@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css_tasty.css">
 </head>
 
-<body>             
-        <!--Barra de Navegación-->     
-    <nav class="navbar navbar-expand-md ms-auto navbar-light fixed-top bg-light">
+<body>
+    <!--Barra de Navegación-->
+    <nav class="navbar navbar-expand-md ms-auto navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="imagenes/logo1.png" width="30" height="30">Something Tasty</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina_InicioSesion.html">Iniciar Sesión</a>
                 </li>
             </ul>
 
@@ -56,7 +59,7 @@
                     <img class="card-img-top" src="Imagenes/imagen1.jpg" alt="Imagen Promocional">
                     <div class="card-body">
                         <h5 class="card-title">Paquete 1</h5>
-                        <p class="card-text">Descripcion del paquete 1</p>
+                        <p class="card-text">Evento para 20 personas<br>Alimentos y Bebidas para todos sus invitados.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
@@ -64,7 +67,7 @@
                     <img class="card-img-top" src="Imagenes/imagen2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Paquete 2</h5>
-                        <p class="card-text">Descripcion del paquete 2</p>
+                        <p class="card-text">Evento para 50 personas<br>Alimentos y Bebidas para todos sus invitados.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
@@ -72,7 +75,9 @@
                     <img class="card-img-top" src="Imagenes/imagen3.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Paquete 3</h5>
-                        <p class="card-text">Descripcion del paquete 3</p>
+                        <p class="card-text">Evento para 100 personas<br>
+                            Sabemos que los eventos grandes suponen una mayor presión,
+                             por eso le ofrecemos la calidad y servicio que su evento necesita.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
@@ -82,53 +87,66 @@
 
         <hr>
 
-        <div class="container d-flex justify-content-center">
-            <h1>Disfruta de tu evento sin preocupaciones</h1><br>
-            <div class="carousel slide" id="carousel1" data-ride="carousel">
-               
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
-                  </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-12 col-lg-4 justify-content-center">
+                    <h2>Disfruta de tu evento sin preocupaciones</h2><br>
+                    <p><span style="font-size: 18; padding: 10px;" >
+                            Sin preocupaciones podrás disfrutar de tus eventos,
+                            nosotros nos encargamos de todo.
+                        </span>
+                    </p>
+                </div>
+                <div class="col col-sm-12 col-lg-8">
+                    <div class="carousel slide" id="carousel1" data-ride="carousel">
 
-                <div class="carousel-inner" d>
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="Imagenes/imagen1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="Imagenes/imagen2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="Imagenes/imagen3.jpg" alt="Third slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <div class="carousel-inner" d>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="Imagenes/imagen1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="Imagenes/imagen2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="Imagenes/imagen3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+
+
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
                     </div>
                 </div>
-                
+            </div>
 
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
 
+            <div class="container text-center">
+                <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                    <div class="row justify-content-center">
+                        <h5><span aligh="row-center"></span>Designed by Humans</h5>
+                    </div>
+                </footer>
             </div>
         </div>
 
-    
-        <div class="container text-center">
-            <footer class="pt-4 my-md-5 pt-md-5 border-top">
-                <div class="row justify-content-center">
-                    <h5><span aligh="row-center"></span>Designed by Humans</h5>
-                </div>
-            </footer>
-        </div>
-    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-        
 </body>
-
