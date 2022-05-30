@@ -1,80 +1,37 @@
-.logo{
-    padding-right: 10px;
+
+.carousel slide{
+    height: 75%;
+
+}
+.carousel img{
+    position: relative;
 }
 
+.container{
+    overflow: hidden;
+    padding: 100px;
+}
 
-body{
-    background-image: url("imagenes/bg2.webp"); 
-} 
+#container2{
+    color: gray;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
 
-.jumbotron {
-    background-image: url("imagenes/jumbotron_2.jpg");
-    background-size: cover;
+#container2 img{
+     width: 200px;
+     margin: auto;
+     border-radius: 50%;
+
+        
+}
+
+#imgCarousel{    
+    width: 100%;
+}
+
+.carousel-inner > .item > img {
+    width: 320px;
+    height:180px;
   }
-
-
-.row{
-    padding: 10px;
-    flex-wrap: wrap;
-}
-.col{
-    flex: 50%;
-}
-.col{
-    padding-left: 10px;
-}
-
-.navbar{
-    padding-right: 1%;
-    padding-left: 1%;
-}
-
-
-
-#container1{
-    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
-}
-
-
-
-
-.jumbotron{
-    
-    background-size: cover;
-    text-align: center;
-    color:#f9fafb;
-    size: 3rem;
-    height: 20rem;
-
-}
-
-#jumbotron{
-    max-width: inherit;
-    max-height: fit-content;
-}
-
-
-#title-jumbotron,#text-jumbotron{
-    text-align: justify;
-}
-
-#title-jumbotron{
-    padding: 1rem;
-    font-family:sans-serif
-     
-}
-
-#text-jumbotron{
-    font-family: 'Courier New', Courier, monospace;
-    padding: 1rem;
-}
-
-.hr{
-    width: 3%;
-     
-}
-
-.carousel{
-    width: 640px;
-    height: 360px;
-}
