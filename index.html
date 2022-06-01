@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/css_tasty.css">
 </head>
 
-<body>
+<body background="imagenes/bg1.jpg">
     <!--Barra de Navegación-->
     <nav class="navbar navbar-expand-md ms-auto navbar-light bg-light p-3">
         <a class="navbar-brand" href="index.html"><img class="logo" src="imagenes/logo1.png" width="30"
@@ -60,7 +60,7 @@
             <div class="carousel-inner">
                 <div class="container-fluid justify-content-center">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img id="imgCarousel" src="Imagenes/img1.jpg" alt="Slide 1">
+                        <img id="imgCarousel" src="Imagenes/img1.jpg" width="100%" height="500" alt="Slide 1">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tu evento con la mejor calidad.</h5>
                             <p>Sin preocuparte por nada, podras disfrutar de tu momento especial.</p>
@@ -69,25 +69,25 @@
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
-                        <img id="imgCarousel" src="Imagenes/img2.jpg" class="d-block w-100 h-20" alt="Slide 2">
+                        <img id="imgCarousel" src="Imagenes/img2.jpg" width="100%" height="500" alt="Slide 2">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Ordena nuestros productos</h5>
                             <p>Tambien te ofrecemos nuestros productos cuando los necesites.</p>
-                            <a href="Nosotros.html" class="btn btn-primary" role="button">Conocer Mas</a>
+                            <a href="Servicios.html" class="btn btn-primary" role="button">Conocer Mas</a>
                         </div>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
-                        <img id="imgCarousel" src="Imagenes/img3.jpg" alt="Slide 3">
+                        <img id="imgCarousel" src="Imagenes/img3.jpg" width="100%" height="500" alt="Slide 3">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Ponte en contacto</h5>
-                            <p>Dejanos tu información y nosotros nos pondremos en contacto.</p>
+                            <p>Dejanos tu información y con gusto te atenderemos.</p>
                             <a href="Nosotros.html" class="btn btn-primary" role="button">Conocer Mas</a>
                         </div>
                     </div>
 
                 </div>
-
+                <!--Controles del Carousel-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,21 +104,25 @@
 
     <!---->
     <hr>
-    <div class="container justify-content-center">
-        <div class="row">
-            <div class="col d-flex justify-content-center ">
-                <img src="Imagenes/img2.jpg" width="100%" height="auto" alt="Imagen 2">
+
+    <div class="container-fluid justify-content-center">
+        <div class="row ">
+            <div class="col col-lg-6 col-sm-12 justify-content-center">
+
+                <img src="Imagenes/img2.jpg" width="100%" height="ms-auto" alt="Imagen 2">
+
             </div>
-            <div id="col1" class="col text-center">
-                <h2>Catering de la mejor calidad</h2>
-                <p>
-                    En Something tasty, tenemos muchos años dedicándonos a ofrecer nuestros servicios con la
-                    mejor calidad y
-                    el trato humano que nuestros clientes merecen. Es por eso que somos reconocidos en la bella ciudad
-                    de
-                    Morelia, como
-                    uno de los servicios premier de catering del mercado.
-                </p>
+            <div id="col1" class="col col-lg-6 col-sm-12 justify-content-md-center">
+                <div class="container justify-content-center">
+                    <h2>Servicio de la mas alta calidad</h2>
+                    <p style="font-size: 20px;">
+                        En Something tasty, tenemos muchos años
+                        dedicándonos a ofrecer nuestros servicios con la
+                        mejor calidad y el trato humano que nuestros clientes merecen.
+                        Es por eso que somos reconocidos en la bella ciudad de
+                        Morelia, como uno de los servicios premier de catering del mercado.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -127,34 +131,49 @@
         <div class="row inline">
             <div class="col">
                 <img src="imagenes/img3.jpg" alt="imagen 3">
-                <p>Los mejores platillos.</p>
+                <span style="color: black;">
+                    <p>Los mejores platillos.</p>
+                </span>
+                <a href="Servicios.html" class="btn btn-primary" role="button">Saber Más</a>
             </div>
             <div class="col">
                 <img src="imagenes/img4.jpg" alt="imagen 4">
-                <p>Comodidad y Tranquilidad.                
-                </p>
+                <span style="color: black;">
+                    <p>Comodidad y Tranquilidad.
+                    </p>
+                </span>
+                <a href="Nosotros.html" class="btn btn-primary" role="button">Saber Más</a>
             </div>
             <div class="col">
                 <img src="imagenes/img5.jpg" alt="imagen 5">
-                <p>Disfruta de tu evento sin preocupaciones.</p>
+                <span style="color: black;">
+                    <p>Disfruta de tu evento sin preocupaciones.</p>
+                </span>
+                <a href="Contacto.html" class="btn btn-primary" role="button">Saber Más</a>
             </div>
+            </span>
         </div>
-
-
 
     </div>
 
-    <div class="container-fluid justify-content">
+
+    <!-- <div class="container-fluid justify-content">
         <div class="row justify-content-md-center" style="border: 1px solid blue;">
-            <div class="col col-sm-12 col-lg-6 col-xm-12" style="border: 1px solid blue;">
+            <div class="col col-sm-12 text-center col-lg-6 col-xm-12" style="border: 1px solid blue;">
                 <h5>columna1</h5>
             </div>
-            <div class="col col-sm-12 col-lg-6 col-xm-12" style="border: 1px solid purple;">
+            <div class="col col-sm-12 text-center col-lg-6 col-xm-12" style="border: 1px solid purple;">
                 <h5>columna2</h5>
             </div>
         </div>
-
     </div>
+ -->
+
+    <div class="container">
+
+        <img src="imagenes/img5.jpg" alt="Imagen 5" width="100%" height="500px">
+    </div>
+
 
 
     <section>
@@ -163,11 +182,31 @@
     </section>
 
 
-    <footer> Hola</footer>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="text-muted">© 2022 Programación Web, ITM</span>
 
 
-
-
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+        </footer>
+    </div>
 
 
 
