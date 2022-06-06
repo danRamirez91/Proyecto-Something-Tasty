@@ -102,3 +102,77 @@
 #container-footer{
     background-color: rgba(244, 247, 247, 0.854);
 }
+
+.top{
+    background-image: url('imagenes/jumbotron_1.jpg');
+    margin: 0%;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.middle{
+    background: linear-gradient(#E5CB9F, white);
+   /* background-color: #E5CB9F;*/
+    width: 100%;
+}
+
+.bottom{
+    background: linear-gradient(#99C4C8, white);
+   /* background-color: #99C4C8;*/
+    width: 100%;
+}
+
+.bototo{
+    background: linear-gradient(#EEE4AB, white);
+    /*background-color: #EEE4AB;*/
+    width: 100%;
+}
+
+.c1{
+    background: linear-gradient(70deg,#E6D5B8, #E45826);
+    max-width: 30%;
+    max-height: fit-content;
+    color: #1B1A17;
+    position: inherit;
+    border-radius: 20px 80px;
+   margin: auto;
+   text-align: center;
+}
+
+.f1{
+    height: 30%;
+    max-width:20%;
+}
+
+.ss{
+    width: 5%;
+    border-style:none;
+    border-color: #E3CAA5;
+    border-top-style: dotted;
+    border-width: 5px;
+}
+
+.c2{
+    text-align: center;
+}
+
+.food{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+    border-radius: 25%;
+}
+
+
+.td{
+    width: 30%;
+    height: 30%;
+}
