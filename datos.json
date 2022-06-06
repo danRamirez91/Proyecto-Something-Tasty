@@ -1,0 +1,44 @@
+[
+    {
+        "precio": 200,
+        "id": 1,
+        "title": "Canapes Sencillos",
+        "descripcion": "10 personas",
+        "img": "imagenes/canapes.webp"
+    },
+    {
+        "precio": 300,
+        "id": 2,
+        "title": "Sandwiches Tocino",
+        "descripcion": "15 Personas",
+        "img": "imagenes/sandwich.webp"
+    },
+    {
+        "precio": 100,
+        "id": 3,
+        "title": "Rosca de Sushi",
+        "descripcion": "10 Personas",
+        "img": "imagenes/rosca.webp"
+    },
+    {
+        "precio": 250,
+        "id": 4,
+        "title": "Sandwiches Jamón",
+        "descripcion": "10 Personas",
+        "img": "imagenes/sandwich2.webp"
+    },
+    {
+        "precio": 150,
+        "id": 5,
+        "title": "Ensalada de Pollo",
+        "descripcion": "10 Personas",
+        "img": "imagenes/ensalada.webp"
+    },
+    {
+        "precio": 150,
+        "id": 6,
+        "title": "Ensalada de Atún",
+        "descripcion": "10 Personas",
+        "img": "imagenes/atun.webp"
+    }
+]
