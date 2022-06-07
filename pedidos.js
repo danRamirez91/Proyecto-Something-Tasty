@@ -11,7 +11,7 @@
  
  
  document.addEventListener('DOMContentLoaded', () => {
-     fetchData()                                                        //
+     fetchData()                                                        //Metodo que espera a que se lea el documento Html y despues se ejecuta
      if(localStorage.getItem('carrito')){
          carrito = JSON.parse(localStorage.getItem('carrito'))
          pintarCarrito()
@@ -25,6 +25,7 @@
      btnAccion(e)
  })
  
+ //Método para recuperar información desde el archivo json de los productos, método async para hacer uso de await y esperar los datos del json.
  const fetchData = async () => {
      try{
         const res = await fetch('datos.json')
