@@ -38,7 +38,7 @@
     data.forEach(producto => {
         templateCard.querySelector('h4').textContent = producto.title
         templateCard.querySelector('h5').textContent = producto.descripcion
-        templateCard.querySelector('p').textContent = producto.precio
+        templateCard.querySelector('p').textContent =  producto.precio
         templateCard.querySelector('img').setAttribute("src", producto.img)
         templateCard.querySelector('.btn-dark').dataset.id = producto.id
 
