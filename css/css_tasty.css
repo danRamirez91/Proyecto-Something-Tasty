@@ -61,6 +61,7 @@
     background-size: cover;
 }
 
+
 #container2{
     color: gray;
     padding: 40px;
@@ -193,7 +194,7 @@
 
 .pie-pagina{
     width: 100%;
-    background-color: #f9fafb4b;
+    background-color: #618ebb81;
 }
 
 .pie-pagina .grupo-1{
@@ -228,6 +229,9 @@
     color: #000;
     margin-bottom: 10px; 
 }
+
+.pie-pagina .grupo-1 .box{
+margin: auto;}
 
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
